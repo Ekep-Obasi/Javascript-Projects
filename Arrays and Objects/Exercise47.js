@@ -8,4 +8,6 @@ const Student = {
     computerscience: 15,
   },
 };
+let string = Student.toString();
 
+console.log(string);

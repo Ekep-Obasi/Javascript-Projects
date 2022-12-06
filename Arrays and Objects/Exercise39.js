@@ -1,21 +1,6 @@
 // Javascript Program to shuffle Deck of Cards
 const group = ["Spades", "Diamonds", "Club", "Heart"];
-const cardValues = [
-  "Ace",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "10",
-  "Jack",
-  "Queen",
-  "King",
-];
+const cardValues = ["Ace","1","2","3","4","5","6","7","8","9","10","Jack","Queen","King",];
 let deck = [];
 for (let i = 0; i < group.length; i++) {
   for (let j = 0; j < cardValues.length; j++) {
